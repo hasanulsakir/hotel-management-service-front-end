@@ -14,7 +14,7 @@ const Service = () => {
    useEffect(() => {
    fetch('https://immense-meadow-35414.herokuapp.com/services')
         .then(res => res.json())
-        .then(data => setServices(data.slice(0,8)));
+        .then(data => setServices(data));
     }, []);
     
     const handleOrder = (i) => {
