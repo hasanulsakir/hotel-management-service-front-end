@@ -17,7 +17,7 @@ const Aboutus = () => {
                         </Col>
                         <Col lg={6} md={6} xs={12} className="mt-5">
                             <p className=" px-2 mx-5 w-70 text-start fs-5 ">
-                                Greensborough Road Surgery has been servicing the local community since 1985.  Watsonia Road Medical Centre, a new purpose-built clinic opened in 2019 to cater for the growing needs of our patients.  The doctors from both clinics have always endeavoured to provide the highest quality of service with professionalism and compassion.  With the wide range of special areas of interest, expertise and skills among the medical staff at the two clinics, you will find all your healthcare needs will be well managed.  All the staff believe in holistic management of each individual, encompassing mental, physical and emotional health. 
+                                When visiting Bangkok, you'll feel right at home at The Residence on Thonglor by Urban Hospitality, which offers quality accommodation and great service. Only 23 km away, this 4-star hotel can be easily accessed from the airport. With its convenient location, the hotel offers easy access to the city's must-see destinations.
                             </p>
                         </Col>
   </Row>
