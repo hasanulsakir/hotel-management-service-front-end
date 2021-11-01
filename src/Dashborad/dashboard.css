@@ -1,0 +1,9 @@
+.dashBoradBody {
+    height: 70vh;
+}
+.sidebarHeight {
+    height: 100%;
+    position: fixed;
+    margin-left: -1px;
+    padding: 1% 3%;
+}

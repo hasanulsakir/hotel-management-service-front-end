@@ -1,0 +1,23 @@
+.navBg{
+background-color: #6047EC;
+color: #fff;
+}
+.navButton{
+    background-color: #fff;
+    color: #6047EC;
+    border: 0;
+}
+.navButton:hover{
+    background-color:rgba(164, 7, 255, 0.932);
+    color: #fff;
+   
+}
+.navMenu{
+    color: #fff;
+     margin: 0px 5px;
+     transition: all 1s;
+}
+.navMenu:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
