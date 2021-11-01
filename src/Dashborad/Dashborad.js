@@ -11,7 +11,7 @@ const Dashborad = () => {
             
             <Container fluid>
                 <Row>
-                    <Col lg={3} className="ml-0">
+                    <Col lg={3} className="ml-0 sidebarBack">
                         <Sidebar></Sidebar>
                     </Col>
                     <Col lg={8} className="mt-5 dashBoradBody">

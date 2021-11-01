@@ -21,7 +21,11 @@ const Header = () => {
      <Navbar.Collapse className="justify-content-end">
        <Nav.Link as={NavLink} to="/home" activeStyle={active} className="navMenu">  Home
       </Nav.Link>
-       <Nav.Link as={NavLink} to="/Contact" className="navMenu" activeStyle={active}>  Contact
+       <Nav.Link as={NavLink} to="/service" className="navMenu" activeStyle={active}>  All Service
+      </Nav.Link>
+       <Nav.Link as={NavLink} to="/contact" className="navMenu" activeStyle={active}>  Contact
+      </Nav.Link>
+       <Nav.Link as={NavLink} to="/aboutus" className="navMenu" activeStyle={active}>  About Us
       </Nav.Link>
        {user.email&&  <Nav.Link as={NavLink} to="/dashboard" className="navMenu" activeStyle={active}>  Dashboard
       </Nav.Link>   }

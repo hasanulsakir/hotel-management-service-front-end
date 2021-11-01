@@ -3,10 +3,11 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import useAuth from '../../../hooks/useAuth';
+import useAuth from '../../hooks/useAuth';
 
 
-const Services = () => {
+const Service = () => {
+    
     const { user } = useAuth();
      const [Services, setServices] = useState([]);
     
@@ -81,4 +82,4 @@ const Services = () => {
     );
 };
 
-export default Services;
+export default Service;

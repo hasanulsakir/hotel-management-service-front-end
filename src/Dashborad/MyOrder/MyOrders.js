@@ -16,7 +16,7 @@ const MyOrders = () => {
         .then(data => setOrder(data));
     }, []);
     return (
-        <div>
+        <div className="bodyHeight">
           
 <Container fluid>
                 <Row>

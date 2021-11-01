@@ -41,7 +41,7 @@ const AllServices = () => {
                     <Col lg={2}>
                         <Sidebar></Sidebar>
                     </Col>
-                    <Col lg={8} className="mt-5 mb-5">
+                    <Col lg={8} className=" mt-5 mb-5">
                         <div className="text-center my-3">
                             <h2 className="text-black my-5 fw-bold">
                               Manage Services

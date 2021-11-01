@@ -32,7 +32,7 @@ const ManageOrder = () => {
          }
   }
     return (
-        <div>
+        <div className="bodyHeight">
             
 
 <Container fluid>

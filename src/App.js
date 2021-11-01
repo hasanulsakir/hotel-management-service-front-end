@@ -1,6 +1,7 @@
 
 // #React Css 
 import './App.css';
+import './common.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // #react-Dom 
@@ -24,6 +25,8 @@ import UpdateService from './Dashborad/AllServices/UpdateService';
 import ManageOrder from './Dashborad/ManageOrder/ManageOrder';
 import MyOrders from './Dashborad/MyOrder/MyOrders';
 import UpdateOrder from './Dashborad/ManageOrder/UpdateOrder';
+import Aboutus from './Pages/Home/Aboutus/Aboutus';
+import Service from './Pages/Service/Service';
 
 
 // #Main 
@@ -43,6 +46,12 @@ function App() {
           </Route>
           <PrivateRoute exact path="/contact">
         <Contact></Contact>
+          </PrivateRoute>
+          <PrivateRoute exact path="/service">
+      <Service></Service>
+          </PrivateRoute>
+          <PrivateRoute exact path="/aboutus">
+       <Aboutus></Aboutus>
           </PrivateRoute>
           <PrivateRoute exact path="/dashboard">
       <Dashborad></Dashborad>
